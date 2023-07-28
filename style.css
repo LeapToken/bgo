@@ -1,0 +1,201 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+}
+
+.logo {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 40px;
+  padding: 8px;
+  font-size: 16px;
+  width: 100%;
+}
+
+button.btn-login {
+  background-color: #ff0062;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button.btn-login:hover {
+  opacity: 0.8;
+}
+
+.signup-link {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.signup-link a {
+  color: #ff0062;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.error-msg {
+  font-size: 14px;
+  color: #ff7979;
+  margin-bottom: 10px;
+}
+
+.formContainer {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 400px;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.tip {
+  text-align: center;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.errorMsg {
+  font-size: 14px;
+  background-color: #ff7979;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.successMsg {
+  font-size: 14px;
+  background-color: #2ecc71;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 40px;
+  padding: 8px;
+  font-size: 16px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  background-color: #ff0062;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  height: 40px;
+  font-size: 16px;
+  width: 100%;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+.link {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.link a {
+  color: #ff0062;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Your existing CSS code remains the same */
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.button {
+    background-color: #ffffff; /* Set buttons to white */
+    color: #ff0062; /* Set text color to the header color */
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add color transition */
+}
+
+.button + .button {
+    margin-left: 10px; /* Add left margin to create space between buttons */
+}
+
+.button:hover {
+    background-color: #e6e1e1; /* Set background color on hover */
+    color: #ff0062; /* Set text color to white on hover */
+}
